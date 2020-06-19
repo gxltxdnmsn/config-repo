@@ -23,3 +23,8 @@ env: test10
 girl:
   name: lili
   age: 24
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
